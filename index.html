@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Londrina+Outline&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Drumkit Challenge</title>
+</head>
+<body>
+    <div class="title">Drumkit Challenge</div>
+    <!--
+    <div class="drumContainer">
+        <div id="boom-image">
+            <div class="mainDrum">
+                <div class="mainClip"></div>
+                <div class="mainClip"></div>
+                <div class="mainClip"></div>
+                <div class="mainClip"></div>
+                <div class="mainClip"></div>
+                <div class="mainClip"></div>
+            </div>
+            <div class="mainleg"></div>
+            <div class="mainleg"></div>
+        </div>
+    </div>
+
+    <div id="clap-i">
+        <div class="drum-image-outer">
+            <div id="clap-image" class="drum-image-inner">
+
+            </div>
+        </div>
+    </div>
+
+    -->
+
+    <div id="keys" class="keys"></div>
+
+    <div id="key" style="display:none">
+        <div class="key"> 
+            <p class="key-name" onclick="playSound('{Name}')">{Name}</p>
+            <p>{Sound}</p> 
+            <audio id="{Sound}" src="./sounds/{Sound}.wav"></audio>
+        </div>
+    </div>
+
+    <div class="drums">
+        <div class="boom-image-outer">
+            <div id="boom-image" class="boom-image-inner">
+                boom!
+            </div>
+        </div>
+        <div class="clap-image-outer">
+            <div id="clap-image" class="clap-image-inner">
+                clap
+            </div>
+        </div>
+        <div class="hihat-image-outer">
+            <div id="hihat-image" class="hihat-image-inner">
+                hihat
+            </div>
+        </div>
+        <div class="kick-image-outer">
+            <div id="kick-image" class="kick-image-inner">
+            </div>
+        </div>
+        <div class="openhat-image-outer">
+            <div class="openhat-image-inner">
+                <div id="openhat-image">
+                    <div class="cymbal-line"><div class="cymbol-colour cymbal-cap cymbal-top"></div></div>
+                    <div class="cymbal-main cymbol-colour"></div>
+                </div>
+                <div>
+                    <div class="cymbal-main cymbol-colour"></div>
+                    <div class="cymbal-line"><div class="cymbol-colour cymbal-cap cymbal-bottom"></div></div>
+                </div>
+            </div>
+        </div>
+        <div class="ride-image-outer">
+            <div id="ride-image" class="ride-image-inner">
+                ride
+            </div>
+        </div>
+        <div class="snare-image-outer">
+            <div id="snare-image" class="snare-image-inner">
+                <div id="circle1" class="snare-circle"></div>
+                <div class="snare-circles">
+                    <div id="circle2" class="snare-circle"></div>
+                    <div id="circle4" class="snare-circle"></div>
+                </div>
+                <div id="circle3" class="snare-circle"></div>
+            </div>
+        </div>
+        <div class="tink-image-outer">
+            <div id="tink-image" class="tink-image-inner">
+                tink
+            </div>
+        </div>
+        <div class="tom-image-outer">
+            <div id="tom-image" class="tom-image-inner">
+                tom
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
