@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
 body
 {
     background-image: url(./images/drumkit.jpg);
@@ -6,12 +8,13 @@ body
 }
 .title
 {
-    font-family:verdana;
-    font-size:3vh;
+    font-family:titan one;
+    font-size:10vh;
     text-transform:uppercase;
     color:blueviolet;
     text-align:center;
-    text-shadow:1px 1px purple;
+    text-shadow:1px 1px pink;
+    margin-bottom:10vh;
 }
 .keys
 {
@@ -32,6 +35,10 @@ body
     font-size:2.5vh;
     color:darkmagenta;
     text-transform:uppercase;
+    background-color:pink;
+    border:solid 2px purple;
+    border-radius: 1vw;;
+    width:8vw;
 }
 
 .key-name
@@ -41,6 +48,7 @@ body
 .key-name:hover
 {
     color:deeppink;
+    font-weight:bolder;
 }
 
 .drums
