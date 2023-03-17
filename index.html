@@ -8,34 +8,11 @@
 </head>
 <body>
     <div class="title">Drumkit Challenge</div>
-    <!--
-    <div class="drumContainer">
-        <div id="boom-image">
-            <div class="mainDrum">
-                <div class="mainClip"></div>
-                <div class="mainClip"></div>
-                <div class="mainClip"></div>
-                <div class="mainClip"></div>
-                <div class="mainClip"></div>
-                <div class="mainClip"></div>
-            </div>
-            <div class="mainleg"></div>
-            <div class="mainleg"></div>
-        </div>
-    </div>
 
-    <div id="clap-i">
-        <div class="drum-image-outer">
-            <div id="clap-image" class="drum-image-inner">
-
-            </div>
-        </div>
-    </div>
-
-    -->
-
+    <!-- Display the key names -->
     <div id="keys" class="keys"></div>
 
+    <!-- Template to store keycode information and sound file location -->
     <div id="key" style="display:none">
         <div class="key"> 
             <p class="key-name" onclick="playSound('{Name}')">{Name}</p>
@@ -44,6 +21,7 @@
         </div>
     </div>
 
+    <!--  The HTML for the animations -->
     <div class="drums">
         <div class="boom-image-outer">
             <div id="boom-image" class="boom-image-inner">
