@@ -1,3 +1,9 @@
+body
+{
+    background-image: url(./images/drumkit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .title
 {
     font-family:verdana;
